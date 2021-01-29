@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: black;
+}
+
+.StartButton{
+    border-radius: 58px;
+    padding: 3em;
+    margin: 15em;
+    width: 15rem;
+    border: 2px solid white;
+    background: black;
+    color: white;
+}
+.StartButton:hover{
+    background-color: white;
+    color: black;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+}
+
+span{
+    font-family: roboto;
+    font-size: 2em;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background: lightgrey;
+    margin-top: 16em;
+}

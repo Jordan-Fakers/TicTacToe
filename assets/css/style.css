@@ -1,0 +1,83 @@
+body{
+    padding: 1.5rem;
+}
+
+.ContourGameNwatch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 81.938rem;
+    height: 49.5rem;
+
+    background: #EA2B2B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 1.625rem;
+}
+
+.PadBorder{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 79.063rem;
+    height: 45.75rem;
+
+    background: #DBAD69;
+    border-radius: 32px;
+    box-shadow: 10px -10px 15px rgba(0, 0, 0, 0.25);
+}
+
+.ScreenBorder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34.9375rem;
+    height: 38.9375rem;
+
+    background: #E7C593;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 1.75rem;
+}
+
+.GameScreen{ 
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 31.9375rem;
+    height: 36.375rem;
+
+    background: #000000;
+    box-shadow: 10px -10px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 1.75rem;
+
+}
+.StartGame{  
+
+    width: 10.6875rem;
+    height: 2.3125rem;
+    margin: 1rem;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    text-align: center;
+
+    color: #FFFFFF;
+    background: #000000;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 46px;
+
+}
+
+.StartGame:hover{
+    background-color: white;
+    color: black;
+}
+
+.FooterContainer{
+    display: flex;
+    justify-content: center;
+}
