@@ -9,26 +9,38 @@
 </head>
 
 <body>
-    <main>
+    <section>
+        <h1 class="GameTitle">Tic Tac Toe</h1>
         <div class="ContourGameNwatch">
             <div class="PadBorder">
+                <div class="ScoreCompteurX"></div>
                 <div class="ScreenBorder">
                     <div class="GameScreen">
-                        <button class="StartGame">
-                            Start Game
-                        </button>
+                        <div class="GameContainer">
+                            <div data-cell-index="0" class="cell"></div>
+                            <div data-cell-index="1" class="cell"></div>
+                            <div data-cell-index="2" class="cell"></div>
+                            <div data-cell-index="3" class="cell"></div>
+                            <div data-cell-index="4" class="cell"></div>
+                            <div data-cell-index="5" class="cell"></div>
+                            <div data-cell-index="6" class="cell"></div>
+                            <div data-cell-index="7" class="cell"></div>
+                            <div data-cell-index="8" class="cell"></div>
+                        </div>
+                        <h2 class="GameStatus"></h2>
+                        <button class="GameRestart" id="bouton" >Start Game</button>
                     </div>
                 </div>
+                <div class="ScoreCompteurX"></div>
             </div>
-        </div>
-
-        </div>
-    </main>
+        </div>    
+    </section>
     <footer>
         <div class="FooterContainer">
             <H5>Made and Designed By Jordan Fakers 2020 ©</H5>
         </div>
     </footer>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
